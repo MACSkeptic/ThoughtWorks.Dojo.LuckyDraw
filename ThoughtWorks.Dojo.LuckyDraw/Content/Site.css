@@ -1,0 +1,131 @@
+body
+{
+    font-size: 75%;
+    font-family: Verdana, Tahoma, Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+
+fieldset 
+{
+    border:1px solid #ddd;
+    padding:0 1.4em 1.4em 1.4em;
+    margin:0 0 1.5em 0;
+}
+
+legend 
+{
+    font-size:1.2em;
+    font-weight: bold;
+}
+
+textarea 
+{
+    min-height: 75px;
+}
+
+.editor-label 
+{
+    margin: 1em 0 0 0;
+}
+
+.editor-field 
+{
+    margin:0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+/* --------------------------------------- */
+#destination 
+{
+	display: none;
+	border: outset 1px #040404;
+	height: 300px;
+}
+.card 
+{
+	display: inline-block;
+	width: 80px;
+	height: 100px;
+	position: relative;
+	border: solid 1px #000000;
+	border-radius: 10px;
+	text-align: center;
+	margin: 5px;
+	box-shadow: 3px 0px 5px #000000 inset;
+	background: #f2f2f2;
+}
+.number 
+{
+	position: absolute;
+	top: 0;
+	left: 8px;
+	font-size: 20pt;
+}
+.suite
+{
+	display: inline-block;
+	width: 75px;
+	height: 68px;
+	font-size: 0;
+	margin: 25px auto;
+}
+.card.clubs .suite
+{
+	background: url("/Content/Images/suites.jpg") 0 -68px no-repeat;
+}
+
+.card.hearts
+{
+	color: #ff0000;
+}
+.card.hearts .suite
+{
+	background: url("/Content/Images/suites.jpg") -74px -68px no-repeat;
+}
+
+.card.spades .suite
+{
+	background: url("/Content/Images/suites.jpg") -81px 0px no-repeat;
+}
+
+.card.diamonds
+{
+	color: #ff0000;
+}
+.card.diamonds .suite
+{
+	background: url("/Content/Images/suites.jpg") -0px 0px no-repeat;
+}
