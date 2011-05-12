@@ -70,6 +70,9 @@
     <Content Include="Content\Images\suites.jpg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\jquery-1.6-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.6.js" />
+    <Content Include="Scripts\jquery-1.6.min.js" />
     <Content Include="Scripts\LuckyDraw.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

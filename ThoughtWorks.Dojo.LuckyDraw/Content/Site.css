@@ -85,7 +85,6 @@ textarea
 	text-align: center;
 	margin: 5px;
 	box-shadow: 3px 0px 5px #000000 inset;
-	background: #f2f2f2;
 }
 .number 
 {
@@ -93,6 +92,7 @@ textarea
 	top: 0;
 	left: 8px;
 	font-size: 20pt;
+	z-index: 10;
 }
 .suite
 {
@@ -101,6 +101,11 @@ textarea
 	height: 68px;
 	font-size: 0;
 	margin: 25px auto;
+	border-radius: 20px;
+}
+.suite 
+{
+    opacity: 0.9;
 }
 .card.clubs .suite
 {
